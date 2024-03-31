@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/Layout_notice_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/gz_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yak_air"
+            android:text="@string/tv_notice" />
+
+        <ListView
+            android:id="@+id/listView_Notice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layout_notice_popular"
+        android:layout_below="@+id/Layout_notice_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/ppl_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yak_air"
+            android:text="@string/tv_pplName" />
+
+        <ListView
+            android:id="@+id/listView_Popular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/light_blue_600"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layout_notice_category"
+        android:layout_below="@id/Layout_notice_popular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/spn_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yak_air"
+            android:text="@string/tv_category" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/spn_main"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" />
+
+            <RadioGroup
+                android:id="@+id/rdo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rdo_btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:checked="true"
+                android:fontFamily="@font/yak_air"
+                android:text="@string/rdbtn_latest" />
+
+            <RadioButton
+                android:id="@+id/rdo_btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:fontFamily="@font/yak_air"
+                android:text="@string/rdbtn_popularity"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ListView
+                android:id="@+id/listView_Category"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light_blue_A400"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+<!--    -->
+<!--    <LinearLayout-->
+<!--        android:id="@+id/blt_main"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_marginTop="0dp">-->
+
+
+
+<!--        <Button-->
+<!--            android:id="@+id/gz1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="gongzi1" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/gz2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="gongzi1" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/gz3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="gongzi1" />-->
+
+
+<!--        <Button-->
+<!--            android:id="@+id/ppl1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="ppl1" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/ppl2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="ppl2" />-->
+
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/read1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="read1"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/read2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="read2"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/read3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="read3"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/read4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="read4"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/read5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="read5"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/read6"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="read6"/>-->
+
+<!--    </LinearLayout>-->
+</RelativeLayout>

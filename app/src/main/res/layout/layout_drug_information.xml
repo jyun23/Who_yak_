@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    //Title layout
+    <LinearLayout
+        android:id="@+id/Layout_Drug_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:paddingTop="1dp"
+        android:orientation="horizontal">
+
+        //Voice button
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left">
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="45dp"
+                android:drawableRight="@drawable/voice"
+                android:background="#00ff0000"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+        //Title layout
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_Druginfo"
+                android:fontFamily="@font/yak_air"
+                android:textAlignment="center"
+                android:textSize="40dp" />
+
+        </LinearLayout>
+
+        //home Button
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right">
+
+            <Button
+                android:id="@+id/Btn_Drug_info_Home"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:drawableRight="@drawable/home"
+                android:background="#00ff0000"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    //Drug name Layout
+    <LinearLayout
+        android:id="@+id/Layout_Drug_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Layout_Drug_title"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        //Blank area layout
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </LinearLayout>
+
+        //Drug name layout
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="2">
+
+            <EditText
+                android:id="@+id/Edittext_Drug_Search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/edittext_DrugName"
+                android:fontFamily="@font/yak_air"
+                android:textSize="30dp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        // Serch layout
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right">
+
+            <Button
+                android:id="@+id/Btn_Drug_search"
+                android:layout_width="75dp"
+                android:layout_height="45dp"
+                android:drawableRight="@drawable/search"
+                android:background="#00ff0000"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    //4 Kinds btn set layout
+    <LinearLayout
+        android:id="@+id/Layout_Drug_Button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Layout_Drug_name"
+        android:weightSum="4"
+        android:orientation="horizontal">
+
+        //Info btn
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Btn_Drug_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/yak_air"
+            android:text="@string/btn_Druginfo">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        //Detail btn
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Btn_Drug_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/yak_air"
+            android:text="@string/btn_Drugdetail">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        //Side effect btn
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Btn_Drug_side_effect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/yak_air"
+            android:text="@string/btn_Drugsideeffect">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        //Precautin btn
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Btn_Drug_precaution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/yak_air"
+            android:text="@string/btn_Drugprecaution">
+
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+
+    //Fragment area layout
+
+    <FrameLayout
+        android:id="@+id/FrameLayout_Drug"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Layout_Drug_Button"
+        android:layout_marginTop="0dp">
+        <ListView
+            android:id="@+id/Drug_ListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="10dp"
+            android:divider="@color/white">
+
+        </ListView>
+
+
+    </FrameLayout>
+
+</RelativeLayout>

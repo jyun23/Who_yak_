@@ -1,0 +1,157 @@
+<resources>
+
+<!--    activity_main xml-->
+    <string name="app_name">WHO? 약</string>
+    <string name="btn_Id_signin">SIGIN BY ID</string>
+    <string name="btn_Signin">회원가입</string>
+    <string name="btn_Voice_acc">음성 비/활성화</string>
+
+<!--    activity_sign_up xml-->
+    <string name="edittext_Signin">회원가입</string>
+    <string name="text_ID">아이디</string>
+    <string name="btn_Id_check">중복 체크</string>
+    <string name="edittext_Password">비밀번호</string>
+    <string name="edittext_rePassword">비밀번호 확인</string>
+    <string name="edittext_UserName">이름</string>
+    <string name="edittext_Email">이메일</string>
+    <string name="edittext_CUser">연결 회원 아이디</string>
+
+<!--activity_home xml-->
+    <string name="btn_Search">검색</string>
+    <string name="btn_Scan">스캔</string>
+    <string name="btn_Schedule">달력</string>
+    <string name="btn_Board">게시판</string>
+    <string name="btn_Voice">음성</string>
+    <string name="btn_Userpage">마이페이지</string>
+    <string name="text_Signin">회원가입</string>
+
+<!--    layout_drug_information xml-->
+    <string name="text_Druginfo">약품 정보</string>
+    <string name="btn_Home">홈</string>
+    <string name="edittext_DrugName">약품 이름</string>
+    <string name="btn_Druginfo">소개</string>
+    <string name="btn_Drugdetail">상세</string>
+    <string name="btn_Drugsideeffect">부작용</string>
+    <string name="btn_Drugprecaution">주의사항</string>
+
+<!--    fragment_drug_info xml-->
+    <string name="edittext_info">Fragment A</string>
+
+<!--    fragment_drug_detail xml-->
+    <string name="edittext_detail">Fragment B</string>
+
+    <!--    fragment_drug_side_effect xml-->
+    <string name="edittext_side_effect">Fragment C</string>
+
+<!--    fragment_drug_precaution xml-->
+    <string name="edittext_precaution">Fragment D</string>
+
+<!--activity_camara_scan xml-->
+    <string name="tv_Scan">스캔</string>
+    <string name="text_camara">촬영간 유의사항 \n 1. 사각 테두리 내 서류 전체가 들어오도록 촬영</string>
+    <string name="btn_takePic">사진 촬영</string>
+    <string name="btn_OCR">OCR</string>
+
+    <!--notice xml-->
+    <string name="tv_popular">인기도</string>
+
+    <!--    activity_bltboard xml-->
+    <string name="tv_bltboard">게시판</string>
+    <string name="btn_bltboard">게시판</string>
+    <string name="btn_rmb">작성글</string>
+    <string name="btn_wrt">작성</string>
+
+<!--    fragment_bltboard xml-->
+    <string name="tv_notice">공지사항</string>
+    <string name="tv_pplName">인기글</string>
+    <string name="tv_category">카테고리</string>
+    <string name="rdbtn_latest">최신순</string>
+    <string name="rdbtn_popularity">인기순</string>
+
+<!--    fragment_rmbboard xml-->
+    <string name="tv_rmb">작성글</string>
+    <string name="btn_fix">수정</string>
+    <string name="btn_delete">삭제</string>
+
+<!--    fragment_wrtboard xml-->
+    <string name="tv_title">제목</string>
+    <string name="edittext_input">입력</string>
+    <string name="tv_file">파일첨부</string>
+    <string name="btn_fileAdd">추가</string>
+    <string name="tv_text">본문</string>
+    <string name="btn_WriteAdd">등록</string>
+    <string name="btn_Cancel">취소</string>
+    <string name="btn_Popular">추천</string>
+
+<!--    activity_schedule xml-->
+    <string name="tv_calendar">달력</string>
+    <string name="tv_schedule">일정</string>
+    <string name="tv_today">금일</string>
+    <string name="tv_upComing">다가올 일정</string>
+
+<!--    activity_userpage xml-->
+    <string name="tv_myPage">마이페이지</string>
+    <string name="btn_profile">회원정보</string>
+    <string name="btn_manual">매뉴얼</string>
+    <string name="btn_setting">설정</string>
+    
+<!--    fragment_userpage xml-->
+    <string name="tv_essentialInfo">필수정보</string>
+    <string name="edittext_userId">유저 아이디</string>
+    <string name="tv_nowPassword">현재 비밀번호</string>
+    <string name="tv_fixPassword">수정 비밀번호</string>
+    <string name="edittext_fixPassword">수정 비밀번호</string>
+    <string name="tv_refixPassword">수정 비밀번호 확인</string>
+    <string name="edittext_refixPassword">수정 비밀번호</string>
+    <string name="tv_name">이름</string>
+    <string name="edittext_nameHint">홍길동</string>
+    <string name="tv_cUser_Hint">relatedid</string>
+    <string name="tv_addtionInfo">추가정보</string>
+    <string name="edittext_phoneNum">010-1234-5678</string>
+    <string name="tv_birth">생년월일</string>
+    <string name="tv_sex">성별</string>
+    <string name="rdbtn_male">남성</string>
+    <string name="rdbtn_female">여성</string>
+    
+<!--    fragment_userpage_manual xml-->
+    <string name="tv_calenderManual">1.달력에 원하는 날짜를 선택하면 일정을 추가 할 수 있습니다. \n2. 수정 및 삭제시 원하는 일정 하나를 클릭하고 버튼을 누르면 수정및 삭제가 완료됩니다. </string>
+    <string name="tv_bltboardManual">1.\n2.\n3. \n4. \n5. \n6.</string>
+    
+<!--    fragment_userpage_setting-->
+    <string name="tv_bltboard_Notification">게시판 알림</string>
+    <string name="tv_comments_Notification">댓글 알림</string>
+    <string name="tv_visual">시각장애인 도움 기능</string>
+    <string name="tv_gesture">제스쳐 기능</string>
+    <string name="tv_user">회원</string>
+    <string name="btn_logOut">로그아웃</string>
+    <string name="btn_withdrawal">회원탈퇴</string>
+
+    <!--    activity_schedule xml-->
+    <string-array name="custom_weekdays">
+        <item>일</item>
+        <item>월</item>
+        <item>화</item>
+        <item>수</item>
+        <item>목</item>
+        <item>금</item>
+        <item>토</item>
+    </string-array>
+
+    <string-array name="custom_months">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+    <string name="btn_OCRresult">검색</string>
+    <string name="btn_back">뒤로가기</string>
+
+</resources>
