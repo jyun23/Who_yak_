@@ -45,8 +45,10 @@ This project is Team ESCH's(Engineering Student who takes Care of Health) colleg
 -----------
 ![image](https://github.com/jyun23/Who_yak_/assets/101920588/847cb45b-df6e-43f5-bdc3-e889854fa9b4)
 --
-![image](https://github.com/jyun23/Who_yak_/assets/101920588/77f961f0-1324-4f90-b877-2dda964ec90d)
---
 ![image](https://github.com/jyun23/Who_yak_/assets/101920588/d664c3db-72b0-4c9d-b544-bced8ee11033)
 --
+![image](https://github.com/jyun23/Who_yak_/assets/101920588/46ed91fe-22c8-44d2-ad5a-f6bc7e8d6615)
+--
 ![image](https://github.com/jyun23/Who_yak_/assets/101920588/180aaf2b-c797-49b3-ae68-4399c1d5a125)
+--
+![image](https://github.com/jyun23/Who_yak_/assets/101920588/96c7dd21-f7ef-4503-af5d-3914c392c692)
