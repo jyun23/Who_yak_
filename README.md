@@ -1,4 +1,4 @@
-![image](https://github.com/jyun23/Who_yak_/assets/101920588/f5e3d260-8b7a-4b18-a206-201ccd29d52d)# Project_Who_yak (Who yak? - Application for senior)
+# Project_Who_yak (Who yak? - Application for senior)
 
 This project is Team ESCH's(Engineering Student who takes Care of Health) college graduation work
 
